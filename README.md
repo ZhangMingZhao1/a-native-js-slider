@@ -24,5 +24,5 @@
 3. 焦点dot的状态随图片轮播亮起和熄灭。且可以点击dot来自由切换跳转到相应的图片。
 
 ## 在线demo
-
+[链接](https://zhangmingzhao1.github.io/a-native-js-slider/index.html)
 
