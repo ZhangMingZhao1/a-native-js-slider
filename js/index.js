@@ -16,15 +16,15 @@ window.onload = function () {
             return;
         }
         animated = true;
-        var time = 300;
-        var inteval = 10;
-        var speed = offset/(time/inteval);
+        var time = 300;//位移总时间
+        var inteval = 10;//位移间隔时间
+        var speed = offset/(time/inteval);//偏移量/总移动次数=每次移动的位移量
         var left = parseInt(list.style.left) + offset;
 
         var go = function (){
             if ( (speed > 0 && parseInt(list.style.left) < left) || (speed < 0 && parseInt(list.style.left) > left)) {
                 list.style.left = parseInt(list.style.left) + speed + 'px';
-                setTimeout(go, inteval);
+                setTimeout(go, inteval);//递归
             }
             else {
                 list.style.left = left + 'px';
