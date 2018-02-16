@@ -27,4 +27,4 @@
 ## 在线demo
 [链接](https://zhangmingzhao1.github.io/a-native-js-slider/index.html)
 
-##有时间可以再用CSS3实现一遍
+## 有时间可以再用CSS3实现一遍
